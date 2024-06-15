@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import TodoForm from "./components/TodoForm";
 
-const App = () => {
+const App: React.FC = () => {
 	return (
-		<div>App</div>
-	)
-}
+		<div>
+			<TodoForm />
+		</div>
+	);
+};
 
-export default App
+export default App;
